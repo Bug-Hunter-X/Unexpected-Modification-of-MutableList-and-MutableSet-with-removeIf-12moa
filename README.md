@@ -1,0 +1,3 @@
+This repository demonstrates an uncommon Kotlin bug related to the behavior of the `removeIf` function on `MutableList` and `MutableSet`.  The `removeIf` function modifies the original collection in place, which can be unexpected if developers assume it returns a new collection.
+
+The `bug.kt` file shows the unexpected behavior. The solution, in `bugSolution.kt`, explains how to work around this behavior if a new collection is needed.
